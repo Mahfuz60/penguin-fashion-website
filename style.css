@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap');
 
+ .navbar-nav .nav-link{
+     color: #20212e;
+     margin:10px;
+     font-size: 20px;
+ }
+
 body{
     font-family: 'Lora', serif;
 }
@@ -7,7 +13,97 @@ body{
     background-color:#FFFBF0;
 }
 
+.header_part{
+    margin-left: 0;
+}
+.headline_first{
+    color:rgb(134, 185, 58);
+    font-weight:700;
+    text-transform: uppercase;
+    font-size:50px;
+}
 
+.headline_second{
+    color:#363958;
+    font-weight:700;
+    text-transform: uppercase;
+    font-size:50px;
+    line-height:2rem;
+}
+
+.header_part p{
+    color:grey;
+    font-size: 18px;
+    margin:25px 0;
+    
+    
+
+}
+
+.buy_button{
+
+    background-color:#fa7339;
+    border-radius: 10px;
+    height:60px;
+    width:180px;
+    text-align:center;
+    border-style: none;
+    padding:5px;
+    margin-left: 5px;
+}
+
+.buy_button:hover{
+    background-color:#363958;
+    color: white;
+}
+
+.buy_button img{
+
+    width:30px;
+}
+
+
+.item_card{
+    border: 0;
+}
+.item_footer_card{
+
+    background-color:white;
+    border: 0;
+}
+
+.product_head{
+    color:#363958;
+    font-size:36px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+.card-title{
+    color:#363958;
+    font-size: 30px;
+
+}
+
+.card_img{
+    width:80%;
+    height:60%;
+    background-color:#F1F1F1;
+   margin-left:35px;
+    position:center;
+}
+
+.card-footer h5{
+   margin-top: 10px;
+    font-size: 30px;
+    margin-right:10px;
+    font-weight:700;
+    color:rgb(13, 172, 13);
+}
+
+.card-text{
+    color: rgb(78, 77, 77);
+}
 
 
 
@@ -15,7 +111,7 @@ body{
 
 
 footer{
-    background-color:rgb(63, 47, 47);
+    background-color:rgb(54, 41, 41);
     height:500px;
     margin-bottom: 0;
     
@@ -87,6 +183,9 @@ footer{
     
 }
 
+.social a:hover{
+    background-color:#363958;
+}
 .text{
     color:silver;
     font-size:20px;
